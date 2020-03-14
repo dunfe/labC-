@@ -76,5 +76,9 @@ namespace HE130007_KhoiTran_Lab3.DAL
             cmd.Parameters.AddWithValue("@bookNumber", copyNumber);
             return DAO.UpdateTable(cmd);
         }
-    }
+
+      internal static Copy GetCopy(int copyNumber) {
+         throw new NotImplementedException();
+      }
+   }
 }
